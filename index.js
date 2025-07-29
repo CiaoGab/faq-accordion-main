@@ -8,8 +8,8 @@ const text2 = document.getElementById('toggle-text2')
 const text3 = document.getElementById('toggle-text3')
 const text4 = document.getElementById('toggle-text4')
 
-const image1 = 'assets/images/icon-plus.svg'
-const image2 = 'assets/images/icon-minus.svg'
+const image1 = '/assets/images/icon-plus.svg'
+const image2 = '/assets/images/icon-minus.svg'
 
 button1.addEventListener('click', () => {
     if (getComputedStyle(text1).display === 'none') {
