@@ -9,13 +9,12 @@ body {
     flex-direction: column;
     height: 100vh;
     align-items: center;
-    justify-content: center;
     background-image: url('/assets/images/background-pattern-mobile.svg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #F8EEFF;
     font-family: "Work Sans", sans-serif;
-    padding: 0 24px;
+    padding: 130px 24px;
 }
 
 /* typography */
@@ -57,7 +56,7 @@ header img {
     background-color: white;
     border-radius: 8px;
     max-width: 375px;
-    margin: 130px 0;
+    margin-bottom: 130px;
 }
 .content-container {
     display: flex;
@@ -77,4 +76,17 @@ header img {
 .accordion-toggle {
     cursor: pointer;
     margin-left: 24px;
+}
+
+.toggle-text {
+    display: none;
+}
+
+
+@media only screen and (min-width:768px) {
+    body {
+        background-image: url(./assets/images/background-pattern-desktop.svg);
+    }
+    
+
 }
